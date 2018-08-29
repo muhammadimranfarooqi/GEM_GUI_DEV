@@ -44,7 +44,15 @@ include "head.php";
           </div>
           
           <div class="row placeholders">
-              <a href="track_parts_step1.php">
+           <a href="conf_db.php">
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="images/tracking1.png" class="img-responsive" alt="Generic placeholder thumbnail" style="width: 150px;">
+              <h4>Configuration</h4>
+              <span class="text-muted">configure components</span>
+            </div>
+            </a>
+   
+	   <a href="track_parts_step1.php">
             <div class="col-xs-6 col-sm-3 placeholder">
                 <img src="images/tracking1.png" class="img-responsive" alt="Generic placeholder thumbnail" style="width: 150px;">
               <h4>Track Parts</h4>

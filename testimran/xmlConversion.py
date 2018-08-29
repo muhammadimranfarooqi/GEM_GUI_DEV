@@ -18,8 +18,6 @@ def readFile(path):
     with open(path) as f:
 	    lines=f.readlines()
     return lines
-
-
 def generateXMLHeader(extensionTableNameText, nameText, runTypeText, runNumberText, runBeginText, runEndText, commentText, locationText, userText):
     root = Element('ROOT')
     root.set('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance')
@@ -57,6 +55,13 @@ def generateDataSet(Set,descriptionText,versionText,kindText,serialText):
     kind.text = kindText
     serial = SubElement(part,"SERIAL_NUMBER")
     serial.text = serialText
+    return dataSet
+def generateDataSetMultipleParts(Set,descriptionText,versionText):
+    dataSet = SubElement(Set, 'DATA_SET')
+    description = SubElement(dataSet, 'COMMENT_DESCRIPTION')
+    description.text = descriptionText
+    version = SubElement(dataSet,'VERSION')
+    version.text = versionText
     return dataSet
 #QC2
 def generateXMLDatafastamb(dataSetTag,HumidityText):
@@ -196,7 +201,7 @@ def generateXMLData4a(dataSetTag,timeMinutesText,appliedVoltageText,impedanceTex
     scal.text=scalText
     daq = SubElement(data, 'DAQ_TIME_SEC')
     daq.text = daqText
-def generateXMLData4s(dataSetTag,testperformText,VmaxText,CurrVmaxText,VdrftText,ReqmsrdText,ReqslpText,diffText,SprsglText,filenameText,elogText,commentText):
+def generateXMLData4s(dataSetTag,testperformText,VmaxText,CurrVmaxText,VdrftText,ReqmsrdText,ReqslpText,diffText,SprsglText,filenameText,elogText,commentText,SprsglErrorText):
     data = SubElement(dataSetTag, 'DATA')
     testperform = SubElement(data, 'TEST_DATE')
     testperform.text = testperformText
@@ -220,8 +225,10 @@ def generateXMLData4s(dataSetTag,testperformText,VmaxText,CurrVmaxText,VdrftText
     elog.text=elogText
     comment=SubElement(data,'COMMENTS')
     comment.text=commentText
+    SprsglError=SubElement(data,'SPR_SGNL_ERR')
+    SprsglError.text=SprsglErrorText	
 #QC5
-def generateXMLData5(dataSetTag,timeMinutesText,tempText,pressText,humiText,imonText,vmonText,vdrifText,rateText,errorText,currentText,cerrorText,gainText,gerrorText):
+def generateXMLData5(dataSetTag,timeMinutesText,tempText,pressText,imonText,vmonText,vdrifText,rateText,errorText,currentText,cerrorText,gainText,gerrorText):
     data = SubElement(dataSetTag, 'DATA')
     timeMinutes = SubElement(data, 'TIME')
     timeMinutes.text = timeMinutesText
@@ -229,8 +236,6 @@ def generateXMLData5(dataSetTag,timeMinutesText,tempText,pressText,humiText,imon
     temp.text=tempText
     press=SubElement(data,'PRESSURE_MBAR')
     press.text=pressText
-    humi=SubElement(data, 'HUMIDITY_PRCNT')
-    humi.text=humiText
     imon=SubElement(data,'IMON_UA')
     imon.text=imonText
     vmon=SubElement(data, 'VMON_VLT')
@@ -250,12 +255,10 @@ def generateXMLData5(dataSetTag,timeMinutesText,tempText,pressText,humiText,imon
     gerror = SubElement(data, 'GAIN_ERROR')
     gerror.text=gerrorText
 #QC5 Configuration
-def generateXMLData5a(dataSetTag,userText,preampText,ampText,cgainText,fgainText,itimeText,dtimeText,discText,thrsText,wadjsText,widthText, scalText,daqText,picoText,tredText,tblackText,tgreenText,souText,hvltText,currentText,nbpriText,etaText,gasText,gfracText,flowText,reqText,diviText):
+def generateXMLData5a(dataSetTag,userText,ampText,cgainText,fgainText,itimeText,dtimeText,discText,thrsText,wadjsText,widthText, scalText,daqText,picoText,souText,hvltText,currentText,nbpriText,etaText,gasText,gfracText,flowText,reqText,diviText,activityText,filterstatusText,collimatorstatusText):
     data = SubElement(dataSetTag, 'DATA')
     user = SubElement(data, 'USER_NAME')
     user.text = userText
-    preamp = SubElement(data, 'PREAMPLIFIER')
-    preamp.text=preampText
     amp=SubElement(data,'AMPLIFIER')
     amp.text=ampText
     cgain=SubElement(data, 'COARSE_GAIN')
@@ -280,12 +283,6 @@ def generateXMLData5a(dataSetTag,userText,preampText,ampText,cgainText,fgainText
     daq.text = daqText
     pico = SubElement(data, 'PICOAMMETER')
     pico.text = picoText
-    tred = SubElement(data, 'TRIAX_RED')
-    tred.text = tredText
-    tblack = SubElement(data, 'TRIAX_BLACK')
-    tblack.text = tblackText
-    tgreen = SubElement(data, 'TRIAX_GREEN')
-    tgreen.text = tgreenText
     sou = SubElement(data, 'SOURCE')
     sou.text = souText
     hvlt = SubElement(data, 'HV_VLT')
@@ -306,8 +303,13 @@ def generateXMLData5a(dataSetTag,userText,preampText,ampText,cgainText,fgainText
     req.text = reqText
     divi = SubElement(data, 'REDIVIDER_MOHM_MSRD')
     divi.text = diviText
-    
-def generateXMLData5s(dataSetTag,timeText, AvgambText,AvgpreText,expofitText,expofit2Text,expofit3Text,expofit4Text,rateText,filesText,elogText,commentText):
+    activity = SubElement(data, 'ACTIVITY_BQ')
+    activity.text = activityText
+    filterstatus = SubElement(data, 'FILTER_STATUS')
+    filterstatus.text = filterstatusText
+    collimatorstatus = SubElement(data, 'COLLIMATOR_STATUS')
+    collimatorstatus.text = collimatorstatusText
+def generateXMLData5s(dataSetTag,timeText, AvgambText,AvgpreText,expofitText,expofit2Text,filesText,elogText,commentText, errorTempText, errorPressureText,p5p0Text,p5t0Text):
 	data = SubElement(dataSetTag, 'DATA')
 	time = SubElement(data, 'TEST_DATE')
 	time.text=timeText
@@ -319,20 +321,21 @@ def generateXMLData5s(dataSetTag,timeText, AvgambText,AvgpreText,expofitText,exp
 	expofit.text=expofitText
 	expofit2=SubElement(data,'EXPO_FIT1_PARA2')
 	expofit2.text=expofit2Text
-	expofit3=SubElement(data,'EXPO_FIT2_PARA1')
-	expofit3.text=expofit3Text
-	expofit4=SubElement(data,'EXPO_FIT2_PARA2')
-	expofit4.text=expofit4Text
-	rate=SubElement(data,'RATE_MAXV_HZ')
-	rate.text=rateText
 	files=SubElement(data,'FILE_NAME')
 	files.text=filesText
 	elog=SubElement(data,'ELOG_LINK')
 	elog.text=elogText
 	comment=SubElement(data,'COMMENTS')
 	comment.text=commentText
-        
-def generateXMLData6s(dataSetTag,testperformText,VmaxText,CurrVmaxText,VdrftText,ReqmsrdText,ReqslpText,diffText,sprsglText,tripText,filenameText,elogText,commentText,):
+	errorTempt=SubElement(data,'ERR_TEMP_DEGC')
+	errorTempt.text=errorTempText
+	errorPressure=SubElement(data,'ERR_PRESSURE_MBAR')
+	errorPressure.text=errorPressureText
+        p5p0=SubElement(data,'P5_P0')
+	p5p0.text=p5p0Text
+      	p5t0=SubElement(data,'P5_T0')
+	p5t0.text=p5t0Text
+def generateXMLData6s(dataSetTag,testperformText,VmaxText,CurrVmaxText,VdrftText,ReqmsrdText,ReqslpText,diffText,sprsglText,tripText,filenameText,elogText,commentText):
     data = SubElement(dataSetTag, 'DATA')
     testperform = SubElement(data, 'STARTING_TIME')
     testperform.text = testperformText
@@ -358,8 +361,58 @@ def generateXMLData6s(dataSetTag,testperformText,VmaxText,CurrVmaxText,VdrftText
     elog.text=elogText
     comment=SubElement(data,'COMMENTS')
     comment.text=commentText
-
-
+def generateXMLDataStrips(dataSetTag,sectorText,depthText,positionText,chText,hot_chText,fit_failedText,dead_chText,high_noiseText,high_effText):
+    data = SubElement(dataSetTag, 'DATA')
+    sector = SubElement(data, 'SECTOR')
+    sector.text = sectorText
+    depth = SubElement(data, 'DEPTH')
+    depth.text=depthText
+    position = SubElement(data, 'VFAT_POSN')
+    position.text = positionText
+    ch = SubElement(data, 'VFAT_CHAN')
+    ch.text=chText
+    hot_ch=SubElement(data,'HOT_CHAN')
+    hot_ch.text=hot_chText
+    fit_failed=SubElement(data, 'FIT_FAILED')
+    fit_failed.text=fit_failedText
+    dead_ch=SubElement(data,'DEAD_CHAN')
+    dead_ch.text=dead_chText
+    high_noise=SubElement(data,'HIGH_NOISE')
+    high_noise.text=high_noiseText
+    high_eff= SubElement(data,'HIGH_EFF_PED')
+    high_eff.text=high_effText
+def generateXMLDataAlignment(dataSetTag,positionText,dxText,dyText,dzText,rxText,ryText,rzText):
+    data = SubElement(dataSetTag, 'DATA')
+    position = SubElement(data, 'POSITION')
+    position.text = positionText
+    dx = SubElement(data, 'DX')
+    dx.text=dxText
+    dy = SubElement(data, 'DY')
+    dy.text = dyText
+    dz = SubElement(data, 'DZ')
+    dz.text=dzText
+    rx=SubElement(data,'RX')
+    rx.text=rxText
+    ry=SubElement(data, 'RY')
+    ry.text=ryText
+    rz=SubElement(data,'RZ')
+    rz.text=rzText
+def generateXMLDataChVfatEfficiency(dataSetTag,vfat_posnText,efficiencyText,efficiency_errorText):
+    data = SubElement(dataSetTag, 'DATA')
+    vfat_posn = SubElement(data, 'VFAT_POSN')
+    vfat_posn.text = vfat_posnText
+    efficiency = SubElement(data, 'EFFICIENCY')
+    efficiency.text=efficiencyText
+    efficiency_error = SubElement(data, 'EFFICIENCY_ERROR')
+    efficiency_error.text = efficiency_errorText
+def generateXMLDataStandGeoConf(dataSetTag,ch_serialText,positionText,flowmeterText):
+    data = SubElement(dataSetTag, 'DATA')
+    ch_serial_number = SubElement(data, 'CH_SERIAL_NUMBER')
+    ch_serial_number.text = ch_serialText
+    position = SubElement(data, 'POSITION')
+    position.text=positionText
+    flowmeter = SubElement(data, 'FLOW_METER')
+    flowmeter.text = flowmeterText
 def prettify(element):
     rough_string = ElementTree.tostring(element, encoding="UTF-8")#, method="xml")
     reparsed = minidom.parseString(rough_string)

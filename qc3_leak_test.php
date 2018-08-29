@@ -155,7 +155,7 @@ include "head.php";
 			       Chamber
 			       <span class="caret"></span>
 			   </button>
-			   <ul class="dropdown-menu scrollable-menu  aria-labelledby="dropdownMenu1">
+			   <ul class="dropdown-menu scrollable-menu  aria-labelledby='dropdownMenu1'">
 			      <?php 
 				list_chambers(); 
 				?>
@@ -206,7 +206,7 @@ include "head.php";
 				      <div class="form-group">
 				      <lable>Initiated by user:</lable><br>
 				       <span class="alert-danger foilalert" hidden> <i class="ace-icon fa fa-times-circle alert-danger"></i> </span>
-				      <input class="runinput" name='INITIATED_BY_USER' >
+				      <input class="runinput" name='INITIATED_BY_USER' required  >
 				      </div>
 				      
 				      <div class="form-group">

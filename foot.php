@@ -4,7 +4,11 @@
 
 <footer>
     <div class="footer text-center">
-        <p class="4">&copy; Copyright 2017</p> <p>Developed By: <a href="https://profiles.web.cern.ch/749910" target="_blank">Ola & Muhammad Hasib </a></p>
+        <p class="4">&copy; Copyright 2017</p>
+
+<p> Current Developers: NCP Team (Imran, Rao & Adeel) </p>
+<p> For any queries, requests may be send to <a href="mailto:muhammad.imran@ncp.edu.pk" target="_top">muhammad.imran@ncp.edu.pk</a></p>
+ <p>Previous Developers: Ola & Muhammad Hasib </p>
     </div>
 </footer>
 
@@ -267,8 +271,10 @@
                         success: function (data) {
                             console.log(data);
                             item.parent().remove();
-                            $('#preloader').fadeOut('fast', function () {/*$(this).remove();*/
+location.reload();                     
+        $('#preloader').fadeOut('fast', function () {/*$(this).remove();*/
                     });
+
                         },
                         error: function (jqXHR, textStatus, errorThrown) {
                             alert(errorThrown);
@@ -276,8 +282,8 @@
 
                     });
                     $('body').load(
-                            'https://gemdb.web.cern.ch/gemdb/proxy.php', {
-                                csurl: 'https://gemdb.web.cern.ch/gemdb/functions/ajaxActions.php',
+                            'https://gemdb-p5.web.cern.ch/gemdb-p5/proxy.php', {
+                                csurl: 'https://gemdb-p5.web.cern.ch/gemdb-p5/functions/ajaxActions.php',
                                 detach: true,
                                 partid: item.attr('id'),
                                 kind: item.attr('kind'),

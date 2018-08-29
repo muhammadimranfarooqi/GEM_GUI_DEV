@@ -43,7 +43,7 @@ if (!$FileTmp){
 $out = shell_exec("python QC4_test.py '$CHAMBER' " );
 $outs = trim($out);
 //$test=null;
-$output=shell_exec("/afs/cern.ch/user/m/mimran/www/dev/my_env_new/bin/python QC4_HV_Data.py $FileName '$CHAMBER' '$outs' $LOCATION $INITIATED_BY_USER '$COMMENT_DESCRIPTION' '$RUN_BEGIN_TIMESTAMP' '$RUN_END_TIMESTAMP' '$Elog' '$Files' '$comments'");
+$output=shell_exec("/afs/cern.ch/user/m/mimran/www/dev/my_env_new/bin/python QC4_HV_Data.py '$FileName' '$CHAMBER' '$outs' '$LOCATION' '$INITIATED_BY_USER' '$COMMENT_DESCRIPTION' '$RUN_BEGIN_TIMESTAMP' '$RUN_END_TIMESTAMP' '$Elog' '$Files' '$comments'");
 
 $LocalFilePATH =  $FileName .".xml";
 $LocalFilePATH_2 =  $FileName ."_Data.xml";

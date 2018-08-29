@@ -76,7 +76,7 @@ def xml_from_excel4(excel_file):
 	#Comment=sys.argv[11]
 	root = generateXMLHeader("QC4_HVTEST_SUMRY","GEM Chamber QC4 HVTEST Summary",str(location) + " GEM QC4 HV Test",Run,Start,Stop,comment,location,user)
 	dataSet = generateDataSet(root,Comment,"1","GEM Chamber",chamber)
-	generateXMLData4s(dataSet,test_date,str(v_max),str(i_max),str(v_drift),str(r_euq), str(r_err), str(r_diff),str(spr_signal),str(Filename),str(Elog),str(Comment))
+	generateXMLData4s(dataSet,test_date,str(v_max),str(i_max),str(v_drift),str(r_euq), str(r_err), str(r_diff),str(spr_signal),str(Filename),str(Elog),str(Comment),str(spr_error))
 	writeToFile(testfile, tostring(root))
 
 #_result = {}

@@ -36,13 +36,15 @@ if (!$FileTmp){
 ?>
 <?php
   include "head.php";
-  ?>
-<?php include "head_panel.php"; ?>
-<?php
-$out = shell_exec("python QC5_test.py '$CHAMBER' " );
+ $out = shell_exec("python QC5_test.py '$CHAMBER' " );
 $outs = trim($out);
+
+
+
+
 //$test=null;
-$output=shell_exec("/afs/cern.ch/user/m/mimran/www/dev/my_env_new/bin/python QC5_Gain_Data.py $FileName '$CHAMBER' $outs $LOCATION $INITIATED_BY_USER '$COMMENT_DESCRIPTION' '$RUN_BEGIN_TIMESTAMP' '$RUN_END_TIMESTAMP' '$Elog' '$Files' '$comments'");
+$output=shell_exec("/afs/cern.ch/user/m/mimran/www/dev/my_env_new/bin/python QC5_Gain_Data.py '$FileName' '$CHAMBER' '$outs' '$LOCATION' '$INITIATED_BY_USER' '$COMMENT_DESCRIPTION' '$RUN_BEGIN_TIMESTAMP' '$RUN_END_TIMESTAMP' '$Elog' '$Files' '$comments'");
+
 
 $LocalFilePATH =  $FileName .".xml";
 $LocalFilePATH_2 =  $FileName ."_Data.xml";
@@ -66,7 +68,7 @@ echo str_replace("","","<a href='$filename'>$filename</a>\n");
 // Send the file to the spool area
 $res_arr = SendXML($filename);
 //echo $res_arr;
-echo var_dump($res_arr) ;
+//echo var_dump($res_arr) ;
 
 }
 ?>
@@ -97,8 +99,12 @@ unlinkr ($dir, "*.xml");
 unlinkr ($dir, "*.xls");
 unlinkr ($dir, "*.xlsm");
 unlinkr ($dir, "*.zip");
+ $_SESSION['post_return'] = $res_arr;
+                    $_SESSION['new_chamber_ntfy'] = '<div role="alert" class="alert alert-success">
+      <strong>Well done!</strong> You successfully created zip file QC5 Data.  <strong>ID:</strong> ' . $filename .
+                    '</div>';
+                    // redirect to confirm page
+                    header('Location: confirmation.php'); //?msg='.$msg."&statusCode=".$statusCode."&return=".$return
+                        die();
+
 ?>
-<//?php include "side.php"; ?>
-<?php
- include "foot.php";
- ?>
