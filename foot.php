@@ -45,7 +45,6 @@
         //$.get("actions/test.php");
         //return true;
     }
-
     $('.dropdown-menu a').on('click', function () {
         //alert($(this).html());
         
@@ -174,7 +173,6 @@
         return false;
         //$('.dropdown-toggle').html($(this).html() + '<span class="caret"></span>');    
     })
-
     $(".testDiod").change(function () {
         if ($(this).is(':checked')) {
             //alert("check");
@@ -185,8 +183,6 @@
             $(".diodes").val(0);
         }
     });
-
-
     $('.form_datetime').datetimepicker({
         //language:  'fr',
         weekStart: 1,
@@ -197,7 +193,6 @@
         forceParse: 0,
         showMeridian: 1
     });
-
     $(".subbutt").click(function(){
         //alert($(".serialInput").val());
         if($(".serialInput").val() == "")
@@ -241,21 +236,13 @@
             $(".chosen-select-vfat23").chosen();
             $(".chosen-select-sector").chosen();
             $("select[class^='chosen-select']").chosen();
-
-
-
-
             jQuery(document).ready(function ($) {
-
 // site preloader -- also uncomment the div in the header and the css style for #preloader
                 $(window).load(function () {
                     $('#preloader').fadeOut('fast', function () {/*$(this).remove();*/
                     });
                 });
-
             });
-
-
             $('.detach').click(function () {
                 
                 var item = $(this);
@@ -274,12 +261,10 @@
 location.reload();                     
         $('#preloader').fadeOut('fast', function () {/*$(this).remove();*/
                     });
-
                         },
                         error: function (jqXHR, textStatus, errorThrown) {
                             alert(errorThrown);
                         }
-
                     });
                     $('body').load(
                             'https://gemdb-p5.web.cern.ch/gemdb-p5/proxy.php', {
@@ -293,7 +278,6 @@ location.reload();
                 } else {
                     //txt = "You pressed Cancel!";
                 }
-
     
 })
     </script>

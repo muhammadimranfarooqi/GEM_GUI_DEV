@@ -4,7 +4,13 @@ include "head.php";
 
 ?>
 
-<?php include "head_panel.php"; ?>
+<?php 
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1);
+//error_reporting(E_ALL);
+
+
+include "head_panel.php"; ?>
 
     <div class="container-fluid">
       <div class="row">
@@ -42,7 +48,7 @@ include "head.php";
             </div>
             </a>
           </div>
-          
+<!--          
           <div class="row placeholders">
            <a href="conf_db.php">
             <div class="col-xs-6 col-sm-3 placeholder">
@@ -74,6 +80,7 @@ include "head.php";
             </div>
             
           </div>
+-->
 <!--
           <h2 class="sub-header">Section title</h2>
           <div class="table-responsive">

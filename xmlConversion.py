@@ -413,6 +413,54 @@ def generateXMLDataStandGeoConf(dataSetTag,ch_serialText,positionText,flowmeterT
     position.text=positionText
     flowmeter = SubElement(data, 'FLOW_METER')
     flowmeter.text = flowmeterText
+def generateXMLData6a(dataSetTag,reqText):
+    data = SubElement(dataSetTag, 'DATA')
+    req = SubElement(data, 'REQUIV_MOHM_MSRD')
+    req.text=reqText
+def generateXMLData6b(dataSetTag,vmon_equ_vltText, imon_equ_uaText,vmon_g3b_vltText,imon_g3b_uaText, vmon_g3t_vltText, imon_g3t_uaText,vmon_g2b_vltText,imon_g2b_uaText,vmon_g2t_vltText,imon_g2t_uaText,vmon_g1b_vltText,imon_g1b_uaText,vmon_g1t_vltText,imon_g1t_uaText,vmon_drift_vltText,imon_drift_uaText):
+    data = SubElement(dataSetTag, 'DATA')
+    VMON_EQU_VLT = SubElement(data, 'VMON_EQU_VLT')
+    VMON_EQU_VLT.text = vmon_equ_vltText
+    IMON_EQU_UA = SubElement(data, 'IMON_EQU_UA')
+    IMON_EQU_UA.text=imon_equ_uaText
+    VMON_G3B_VLT = SubElement(data, 'VMON_G3B_VLT')
+    VMON_G3B_VLT.text = vmon_g3b_vltText
+    IMON_G3B_UA = SubElement(data, 'IMON_G3B_UA')
+    IMON_G3B_UA.text = imon_g3b_uaText
+    VMON_G3T_VLT=SubElement(data,'VMON_G3T_VLT')
+    VMON_G3T_VLT.text= vmon_g3t_vltText
+    IMON_G3T_UA=SubElement(data, 'IMON_G3T_UA')
+    IMON_G3T_UA.text= imon_g3t_uaText
+    VMON_G2B_VLT=SubElement(data,'VMON_G2B_VLT')
+    VMON_G2B_VLT.text= vmon_g2b_vltText
+    IMON_G2B_UA=SubElement(data,'IMON_G2B_UA')
+    IMON_G2B_UA.text=imon_g2b_uaText
+    VMON_G2T_VLT= SubElement(data,'VMON_G2T_VLT')
+    VMON_G2T_VLT.text=vmon_g2t_vltText
+    IMON_G2T_UA=SubElement(data,'IMON_G2T_UA')
+    IMON_G2T_UA.text=imon_g2t_uaText
+    VMON_G1B_VLT=SubElement(data,'VMON_G1B_VLT')
+    VMON_G1B_VLT.text=vmon_g1b_vltText
+    IMON_G1B_UA=SubElement(data,'IMON_G1B_UA')
+    IMON_G1B_UA.text=imon_g1b_uaText
+    VMON_G1T_VLT= SubElement(data,'VMON_G1T_VLT')
+    VMON_G1T_VLT.text=vmon_g1t_vltText
+    IMON_G1T_UA=SubElement(data,'IMON_G1T_UA')
+    IMON_G1T_UA.text=imon_g1t_uaText
+    VMON_DRIFT_VLT=SubElement(data,'VMON_DRIFT_VLT')
+    VMON_DRIFT_VLT.text=vmon_drift_vltText
+    IMON_DRIFT_UA=SubElement(data,'IMON_DRIFT_UA')
+    IMON_DRIFT_UA.text=imon_drift_uaText
+def generateXMLData6c(dataSetTag,test_dateText,filenameText,elogText,commentText):
+    data = SubElement(dataSetTag, 'DATA')
+    test_date = SubElement(data, 'TEST_DATE')
+    test_date.text = test_dateText
+    filename=SubElement(data,'FILE_NAME')
+    filename.text=filenameText
+    elog=SubElement(data,'ELOG_LINK')
+    elog.text=elogText
+    comment=SubElement(data,'COMMENTS')
+    comment.text=commentText
 def prettify(element):
     rough_string = ElementTree.tostring(element, encoding="UTF-8")#, method="xml")
     reparsed = minidom.parseString(rough_string)

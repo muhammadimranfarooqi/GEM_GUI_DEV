@@ -143,7 +143,7 @@
       <strong>Well done!</strong> You successfully created GEM Chamber XML file <strong>ID:</strong> ' . $_POST['serial'] .
                     '</div>';
                     // redirect to confirm page
-                    header('Location: https://gemdb.web.cern.ch/gemdb/confirmation.php'); //?msg='.$msg."&statusCode=".$statusCode."&return=".$return
+                    header('Location: confirmation.php'); //?msg='.$msg."&statusCode=".$statusCode."&return=".$return
                         die();
                     
                     
@@ -657,6 +657,8 @@ include "foot.php";
 ?>
 
 <script>
+
+//$.noConflict();
     $(document).ready(function () {
 
         /**
