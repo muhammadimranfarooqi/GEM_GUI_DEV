@@ -6,9 +6,9 @@
     <div class="footer text-center">
         <p class="4">&copy; Copyright 2017</p>
 
-<p> Current Developers: NCP Team (Imran, Rao & Adeel) </p>
-<p> For any queries, requests may be send to <a href="mailto:muhammad.imran@ncp.edu.pk" target="_top">muhammad.imran@ncp.edu.pk</a></p>
- <p>Previous Developers: Ola & Muhammad Hasib </p>
+<p> NCP Team (Imran, Rao & Adeel) </p>
+<p> For any queries, requests may be sent to <a href="mailto:muhammad.imran@cern.ch" target="_top">muhammad.imran@ncp.edu.pk</a></p>
+
     </div>
 </footer>
 

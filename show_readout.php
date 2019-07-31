@@ -166,6 +166,18 @@ include "head.php";
                         <div class="col-md-4"><img alt="200x200" class="img-thumbnail" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="uploads/GEM.png" data-holder-rendered="true"></div>
                     </div>-->
                    <div class="row">
+<div class="col-md-4"><div class="panel panel-info">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Parent Component:</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                            <ul class="list-group">
+                                                <?php list_parent($data[0]['PART_ID']); ?>
+                                            </ul>
+                                        </div>
+                                    </div></div>
+
+
                                 <div class="col-md-4"><div class="panel panel-info">
                                         <div class="panel-heading">
                                             <h3 class="panel-title">Child parts:</h3>

@@ -118,62 +118,12 @@ if (strpos($serial_num, '-S-') !== false) {
                                 </div>
                             </div>
                             </div>
-                        <!--<div class="col-md-4"><img alt="200x200" class="img-thumbnail" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="uploads/GEM.png" data-holder-rendered="true"></div>-->
                     </div>
-                                            <?php
-                                } else {
-                                    echo "No Item found for this ID";
-                                }
-                                ?>
-<!--                     Panel content 
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="row">
+</div>
+</div>
 
 
-
-                                <div class=" col-md-12 col-lg-12 "> 
-                                    <table class="table table-user-information">
-                                        <tbody>
-                                            <tr>
-                                                <td>Serial Number</td>
-                                                <td><//?php echo $_GET["id"]; ?></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Manufacturer name:</td>
-                                                <td>XYZ</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Status</td>
-                                                <td><span class="label label-success">Accepted</span></td>
-                                            </tr>
-
-                                            <tr>
-                                            <tr>
-                                                <td>equipped with diodes?</td>
-                                                <td><span aria-hidden="true" class="glyphicon glyphicon-ok"></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Username:</td>
-                                                <td> Mr. X</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Email</td>
-                                                <td><a href="mailto:info@support.com">x@cern.ch</a></td>
-                                            </tr>
-
-
-                                        </tbody>
-                                    </table>
-
-                                     <a href="#" class="btn btn-primary">My Sales Performance</a>
-                                     <a href="#" class="btn btn-primary">Team Sales Performance</a>
-                                </div>
-                            </div>
-                            </div>
-                        <div class="col-md-4"><img alt="200x200" class="img-thumbnail" data-src="holder.js/200x200" style="width: 200px; height: 200px;" src="uploads/GEM.png" data-holder-rendered="true"></div>
-                    </div>-->
-                   <div class="row">
+<div class="row" class="col-md-12">
                                 <div class="col-md-6"><div class="panel panel-info">
                                         <div class="panel-heading">
                                             <h3 class="panel-title">Current Detector parts:</h3>
@@ -183,32 +133,97 @@ if (strpos($serial_num, '-S-') !== false) {
                                                 <?php get_attached_parts_show($data[0]['PART_ID']); ?>
                                             </ul>
                                         </div>
-                                    </div></div>
+
+                                    </div>
+</div>
+                                 <div class="col-md-6"><div class="panel panel-info">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">QC Result Status:</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                        
+
+
+<div class="table-responsive">
+            <table id="example" class="table table-striped">
+              <thead>
+                <tr>
+                  <th>QC Test</th>
+                  <th>QC Result</th>
+                <th> Elog Link</th>
+                 <th>Comments</th>
+                  <th>Record Insertion Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <?php $chambers=  get_qc_result_data($serial_num);
+          foreach( $chambers as $chamber){
+
+              echo '<tr>
+               <td>'.$chamber['QC_TEST'].'</td> 
+                  <td>'.$chamber['QC_RESULT'].'</td>
+		<td>'.$chamber['ELOG_LINK'].'</td> 
+                  <td>'.$chamber['COMMENTS'].'</td>
+
+
+ <td>'.$chamber['INSERTION_DATE'].'</td>
+                </tr>';
+          }
+
+          ?>
+              </tbody>
+            </table>
+          </div>
 
 
 
 
 
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
+                                    </div>
+</div>
 </div>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            <?php
+                                } else {
+                                    echo "No Item found for this ID";
+                                }
+                                ?>
+                   
+
+
+
+</div>
+</div>
+
 <?php
 include "foot.php";
 ?>
+<script>
+$("#chamber").attr("class","active");
+$(document).ready(function() { $('#example').DataTable(
+
+{
+        "order": [[ 1, "asc" ]]
+    } 
+
+); } );
+
+</script>
+

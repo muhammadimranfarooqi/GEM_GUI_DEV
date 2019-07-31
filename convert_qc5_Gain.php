@@ -97,6 +97,7 @@ $dir= getcwd();
 //echo $dir;
 unlinkr ($dir, "*.xml");
 unlinkr ($dir, "*.xls");
+unlinkr ($dir, "*.xlsx");
 unlinkr ($dir, "*.xlsm");
 unlinkr ($dir, "*.zip");
  $_SESSION['post_return'] = $res_arr;

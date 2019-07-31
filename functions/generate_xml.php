@@ -258,7 +258,8 @@ function SendXML($LocalFilePATH) {
     curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
     $return = curl_exec($ch);
-    $status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+//	echo $return;    
+$status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     //Printing Status Code and execution return 
     $res_arr = array();
 //    if($status_code == "200"){

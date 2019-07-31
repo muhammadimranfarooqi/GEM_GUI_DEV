@@ -13,7 +13,7 @@ function database_connection() {
     //Databbase Connection Information 
 $accountname = "CMS_GEM_APPUSER_R";
 $password = "GEM_Reader_2015";
-$servername = "int2r1-v.cern.ch:10121/int2r.cern.ch";
+$servername = "int2r-s.cern.ch:10121/int2r_lb.cern.ch";
   
 //    $accountname = "CMS_GEM_APPUSER_R";
  //   $password = "GEM_Reader_2015";

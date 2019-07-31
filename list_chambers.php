@@ -50,55 +50,6 @@ include "head.php";
           }
           
           ?>
-<!--                <tr>
-                  <td>1</td>
-                  <td>GE1/1-VI-L-CERN-0001</td>
-                  <td><span class="label label-primary">Installed</span></td>
-                  <td><span aria-hidden="true" class="glyphicon glyphicon-user"> oaboamer </span></td>
-                  <td><a href="show_chamber.php?id=GE1/1-VI-L-CERN-0001"><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Show</button></a></td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>GE1/1-VI-S-CERN-0002</td>
-                  <td> <span class="label label-success">Accepted</span></td>
-                  <td><span aria-hidden="true" class="glyphicon glyphicon-user"> aliah </span></td>
-                  <td><a href="show_chamber.php?id=GE1/1-VI-L-CERN-0002"><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Show</button></a></td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>GE1/1-VI-L-CERN-0010</td>
-                  <td> <span class="label label-danger">Rejected</span></td>
-                  <td><span aria-hidden="true" class="glyphicon glyphicon-user"> abc </span></td>
-                  <td><a href="show_chamber.php?id=GE1/1-VI-L-CERN-0010"><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Show</button></a></td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>GE1/1-VI-S-CERN-0013</td>
-                  <td> <span class="label label-warning">Waiting</span></td>
-                  <td><span aria-hidden="true" class="glyphicon glyphicon-user"> tester </span></td>
-                  <td><a href="show_chamber.php?id=GE1/1-VI-L-CERN-0013"><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Show</button></a></td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>GE1/1-VI-L-CERN-0019</td>
-                  <td> <span class="label label-default">Spare</span></td>
-                  <td><span aria-hidden="true" class="glyphicon glyphicon-user"> oaboamer </span></td>
-                  <td><a href="show_chamber.php?id=GE1/1-VI-L-CERN-0019"><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Show</button></a></td>
-                </tr>
-                <tr>
-                  <td>6</td>
-                  <td>GE1/1-VI-S-CERN-0022</td>
-                  <td> <span class="label label-primary">Installed</span></td>
-                  <td><span aria-hidden="true" class="glyphicon glyphicon-user"> oaboamer </span></td>
-                  <td><a href="show_chamber.php?id=GE1/1-VI-L-CERN-0022"><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Show</button></a></td>
-                </tr>
-                <tr>
-                  <td>7</td>
-                  <td>GE1/1-VI-L-CERN-0025</td>
-                  <td> <span class="label label-primary">Installed</span></td>
-                  <td><span aria-hidden="true" class="glyphicon glyphicon-user"> aliah </span></td>
-                  <td><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Show</button></td>
-                </tr>-->
               </tbody>
             </table>
           </div>

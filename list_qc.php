@@ -77,6 +77,18 @@ include "head.php";
             </a>
 
           </div>
+
+        <div class="row placeholders">
+
+<a href="qc_result_test.php">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="images/qc.png" class="img-responsive" alt="Generic placeholder thumbnail" style="width: 150px;">
+              <h4>QC Result</h4>
+              <span class="text-muted">QC Result</span>
+            </div>
+            </a>
+
+</div>
 <!--
                 <li class="list-group-item"><div class="panel panel-default">
                 <div class="panel-heading">

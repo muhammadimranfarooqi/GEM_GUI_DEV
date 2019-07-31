@@ -16,3 +16,930 @@ Fatal NI connect error 12514, connecting to:
     nt main err code: 0
     nt secondary err code: 0
     nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=int2r.cern.ch)(CID=(PROGRAM=httpd)(HOST=webafs631.cern.ch)(USER=apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=10.16.6.178)(PORT=10121)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 22-MAR-2019 14:34:18
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: Message 12564 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=int2r.cern.ch)(CID=(PROGRAM=httpd)(HOST=webafs631.cern.ch)(USER=apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=10.16.6.178)(PORT=10121)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 22-MAR-2019 14:35:54
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: Message 12564 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=int2r.cern.ch)(CID=(PROGRAM=httpd)(HOST=webafs631.cern.ch)(USER=apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=10.16.6.178)(PORT=10121)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 22-MAR-2019 15:12:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: Message 12564 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=int2r.cern.ch)(CID=(PROGRAM=httpd)(HOST=webafs631.cern.ch)(USER=apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=10.16.6.178)(PORT=10121)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 22-MAR-2019 15:13:03
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: Message 12564 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:25:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:26:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:27:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:27:28
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:29:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:32:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:33:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:34:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:35:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:37:48
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:40:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:44:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:45:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 05:55:09
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:02:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:06:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:08:45
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:12:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:13:22
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:14:22
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:16:33
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:17:57
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:19:39
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:24:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:28:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:29:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:32:08
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:35:34
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:36:34
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:39:18
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 06:53:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:08:52
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:13:39
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:27:48
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:30:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:32:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:34:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:41:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:49:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:51:27
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 07:52:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 08:05:39
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 08:21:33
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 08:22:33
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 11.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 26-MAR-2019 08:23:56
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+  Client address: <unknown>
+  Client address: <unknown>
+  Client address: <unknown>
