@@ -1095,6 +1095,29 @@ function getSerialById($id) {
  * return: html
  * Autor: Ola Aboamer [o.aboamer@cern.ch]
  */
+function list_locations_combobox($location) {
+
+    // Database connection
+    $conn = database_connection($kindId);
+   
+    $sql = "SELECT LOCATION_ID,LOCATION_NAME  FROM CMS_GEM_CORE_MANAGEMNT.LOCATIONS ORDER BY LOCATION_NAME"; //select data or insert data
+    //$sql = "SELECT SERIAL_NUMBER  FROM CMS_GEM_CORE_CONSTRUCT.PARTS WHERE KIND_OF_PART_ID='" . $kindId . "' AND IS_RECORD_DELETED = 'F'"; //select data or insert data
+    // Execute query
+    $query = oci_parse($conn, $sql);
+    //Oci_bind_by_name($query,':bind_name',$bind_para); //if needed
+    $arr = oci_execute($query);
+
+    $result = array();
+    while ($row = oci_fetch_array($query, OCI_ASSOC + OCI_RETURN_NULLS)) {
+       
+
+
+echo '<option value="'.$row['LOCATION_NAME'].'"  >'.$row['LOCATION_NAME'].'</option>';
+
+
+    }
+    return 1;
+}
 
 function list_chambers_combobox() {
 

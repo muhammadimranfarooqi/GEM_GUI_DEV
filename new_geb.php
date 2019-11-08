@@ -167,8 +167,10 @@ include "head.php";
                                         <label> Select GEB Type:</label><br>
 				<select name="gebtype" class="form-group">
 	<option value = "GEM Electronics Board" > GEM Electronics Board</option>			
-        <option value = "GEM Electronics Board Narrow" > GEM Electronics Board Narrow</option>
-        <option value = "GEM Electronics Board Wide" > GEM Electronics Board Wide</option>
+        <option value = "GEM Electronics Board Narrow Long" > GEM Electronics Board Narrow Long</option>
+        <option value = "GEM Electronics Board Narrow Short" > GEM Electronics Board Narrow Short</option>
+        <option value = "GEM Electronics Board Wide Long" > GEM Electronics Board Wide Long</option>
+        <option value = "GEM Electronics Board Wide Short" > GEM Electronics Board Wide Short</option>
 
 
 </select><br>

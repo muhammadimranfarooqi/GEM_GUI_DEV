@@ -118,6 +118,27 @@ def generateXMLDataQCResult(dataSetTag,qc_testText,qc_resultText,elog_linkText, 
     comments = SubElement(data, 'COMMENTS')
     comments.text = commentsText
 
+def generateXMLDataSCInstStatus(dataSetTag,installation_locationText,super_chamberText,cooling_closedText,lv_connectedText,hv_connectedText,fibres_connectedText,gas_connectedText, daq_connectedText ,installation_dateText):
+    data = SubElement(dataSetTag, 'DATA')
+    super_chamber = SubElement(data, 'SC_SERIAL_NO')
+    super_chamber.text = super_chamberText
+    cooling_closed = SubElement(data, 'COOLING_CLOSED')
+    cooling_closed.text = cooling_closedText
+    lv_connected = SubElement(data, 'LV_CONNECTED')
+    lv_connected.text = lv_connectedText
+    hv_connected = SubElement(data, 'HV_CONNECTED')
+    hv_connected.text = hv_connectedText
+    fibres_connected = SubElement(data, 'FIBRES_CONNECTED')
+    fibres_connected.text = fibres_connectedText
+    installation_date = SubElement(data, 'INSTALLATION_DATE')
+    installation_date.text = installation_dateText
+    installation_location = SubElement(data, 'INSTALLATION_LOCATION')
+    installation_location.text = installation_locationText
+    gas_connected = SubElement(data, 'GAS_CONNECTION_CLOSED')
+    gas_connected.text = gas_connectedText
+    daq_connected = SubElement(data, 'DAQ_CONNECTION_CLOSED')
+    daq_connected.text = daq_connectedText
+
 def generateXMLDatalong(dataSetTag,timesecext,appliedVoltageText,errvoltText,currentText,ErrText):
     data = SubElement(dataSetTag, 'DATA')
     timesec = SubElement(data, 'TIME_SEC')

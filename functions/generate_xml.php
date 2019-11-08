@@ -240,15 +240,17 @@ function SendXML($LocalFilePATH) {
 //CURL
     $username = $_SESSION['user'];
     $password = "kucr3PREruVUchAwEc";
-    //$password = "y9ucrou0oubra";
-   $target_url = "http://gem-machine-a.cern.ch/cmsdbldr/gem/int2r";
-   //$target_url = "http://gem-machine-b.cern.ch/cmsdbldr/gem/int2r";
-    //$target_url = "http://cmsgem.cern.ch/gem/cmsdbldr";
+  //$target_url = "http://gem-machine-a.cern.ch/cmsdbldr/gem/int2r";
    // $target_url = "http://cmsgem.cern.ch/gem/cmsdbldr/gem/omds";
-     
+   
+   $target_url = "http://dbloader-gem.cern.ch/gem/int2r/load/file";
+  
     $file_name_with_full_path = realpath($LocalFilePATH);
-    $post = array('file' => '@' . $file_name_with_full_path);
-    $ch = curl_init($target_url);
+//    $post = array('file' => '@' . $file_name_with_full_path);
+  
+ $post = array('uploadFile' => '@' . $file_name_with_full_path);
+
+  $ch = curl_init($target_url);
     curl_setopt($ch, CURLOPT_URL, $target_url);
     curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
     curl_setopt($ch, CURLOPT_USERPWD, $username . ":" . $password);
@@ -262,18 +264,6 @@ function SendXML($LocalFilePATH) {
 $status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     //Printing Status Code and execution return 
     $res_arr = array();
-//    if($status_code == "200"){
-//        echo '</br><span class="label label-success"> <b>Status code:</b>'.$status_code.'</span> ';
-//        echo '<hr><div class="alert alert-success" role="alert"><b>Execution return:</b>'.$return.'</div>'; 
-//    }
-//    else if($status_code == "503"){
-//        echo '</br><span class="label label-danger"> <b>Status code:</b>'.$status_code.'</span> ';
-//        echo '<hr><div class="alert alert-danger" role="alert"><b>Execution return:</b>'.$return.'</div>';
-//    }
-//    else{
-//        echo '</br><span class="label label-warning"> <b>Status code:</b>'.$status_code.'</span> ';
-//        echo '<hr><div class="alert alert-warning" role="alert"><b>Execution return:</b>'.$return.'</div>';
-//    }
     $res_arr['statuscode'] = $status_code;
     $res_arr['return'] = $return;
     

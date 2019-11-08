@@ -87,8 +87,11 @@ $MICROTCA_KIND_OF_PART_ID = $resultArr['GEM Micro TCA Crate'];
 //Kind of part id for GEBs
 //$GEB_KIND_OF_PART_ID = "10000000000002799"; 
 $GEB_KIND_OF_PART_ID = $resultArr['GEM Electronics Board'];
-$GEB_NARROW_KIND_OF_PART_ID = $resultArr['GEM Electronics Board Narrow'];
-$GEB_WIDE_KIND_OF_PART_ID = $resultArr['GEM Electronics Board Wide'];
+$GEB_NARROW_LONG_KIND_OF_PART_ID = $resultArr['GEM Electronics Board Narrow Long'];
+$GEB_NARROW_SHORT_KIND_OF_PART_ID = $resultArr['GEM Electronics Board Narrow Short'];
+
+$GEB_WIDE_LONG_KIND_OF_PART_ID = $resultArr['GEM Electronics Board Wide Long'];
+$GEB_WIDE_SHORT_KIND_OF_PART_ID = $resultArr['GEM Electronics Board Wide Short'];
 
 
 

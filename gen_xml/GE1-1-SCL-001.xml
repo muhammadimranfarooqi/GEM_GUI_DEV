@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ROOT>
+  <PARTS>
+    <PART>
+      <SERIAL_NUMBER>GE1/1-SCL-001</SERIAL_NUMBER>
+      <LOCATION>CERN</LOCATION>
+      <KIND_OF_PART>GEM Super Chamber</KIND_OF_PART>
+    </PART>
+  </PARTS>
+</ROOT>

@@ -34,13 +34,19 @@ include "head.php";
 
 
                                 <div class=" col-md-12 col-lg-12 "> 
-                                    <table class="table table-user-information">
+                                
+				<form method="POST" name="UserForm" action="edit_sup_chamber_process1.php">
+
+
+    <table class="table table-user-information">
                                         <tbody>
                              <?php
-                                    if (!empty($data[0]['PART_ID'])) {
-                                        ?> <tr>
+                                    if (!empty($data[0]['PART_ID'])) {?>
+      <input type="hidden" class="form-control" name="part_id"  value="<?=$data[0]['PART_ID'] ?>" />
+
+                                         <tr>
                                                 <th>ID</th>
-                                                <td><?= $data[0]['PART_ID'] ?></td>
+                                                <td><?= $data[0]['PART_ID'] ?> </td>
                                             </tr> <?php
 $serial_num = $data[0]['SERIAL_NUMBER'];
 $check_long = '-L-';
@@ -55,7 +61,10 @@ if (strpos($serial_num, 'S-') !== false) {
 
                                    }
                                     if (!empty($data[0]['SERIAL_NUMBER'])) {
-                                        ?> <tr>
+                                        ?> 
+      <input type="text" class="form-control" name="serial_number"  value="<?=$data[0]['SERIAL_NUMBER'] ?>" />
+
+<tr>
                                                 <th>Serial Number:</th>
                                                 <td><?= $data[0]['SERIAL_NUMBER'] ?></td>
                                             </tr> <?php
@@ -101,14 +110,27 @@ if (strpos($serial_num, 'S-') !== false) {
                                             </tr>
                                             <?php
                                     }
-                                    if (!empty($data[0]['LOCATION_ID'])) {
+                                    //if (!empty($data[0]['LOCATION_ID'])) {
                                         ?> 
-                                             <tr>
-                                                 <th>Location:</th>
+ <tr>
+                                                 <th>Current Location:</th>
                                                 <td><?= $data[0]['LOCATION_ID']; ?></td>
+
+
+                                             <tr>
+                                                 <th>Change Current Location:</th>
+                                                <td>
+<!--#<?= $data[0]['LOCATION_ID']; ?>-->
+
+<select name="location" class="form-control">
+
+                        <?php list_locations_combobox($data[0]['LOCATION_ID']);?>
+
+
+</td>
                                             </tr>
                                             <?php
-                                    }
+                                    //}
                                     if (!empty($data[0]['COMMENT_DESCRIPTION'])) {
                                         ?> 
                                             <tr>
@@ -118,8 +140,17 @@ if (strpos($serial_num, 'S-') !== false) {
                                             <?php
                                     }
                                     ?>
-                                            </tbody>
+      
+<tr>
+<td>
+   			<button type="submit" class="btn btn-primary"> Edit / Save</button>
+
+</td>
+</tr>
+
+                                      </tbody>
                                     </table>
+</form>
                                 </div>
                             </div>
                             </div>

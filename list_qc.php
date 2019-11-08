@@ -88,6 +88,15 @@ include "head.php";
             </div>
             </a>
 
+
+<a href="list_sup_chambers_wheel.php">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="images/qc.png" class="img-responsive" alt="Generic placeholder thumbnail" style="width: 150px;">
+              <h4>Super Chamber Installation Status</h4>
+              <span class="text-muted">Super Chamber Installation Status</span>
+            </div>
+            </a>
+
 </div>
 <!--
                 <li class="list-group-item"><div class="panel panel-default">
