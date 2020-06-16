@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 if(isset($_GET['dev']))
 {
 	/*Error Reporting */

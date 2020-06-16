@@ -1,7 +1,9 @@
 <?php
 include "head.php";
 ?>
-            
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      
 <?php
             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                include_once "functions/functions.php";
@@ -146,6 +148,7 @@ include "head.php";
                                     <div class="serial"><span class="name">FOIL-<span class="batch">1</span>-</span><span id="vers" class="version" >VERSION</span><span class="id">-XXXX<?php /*str_pad($serial_num[3] + 1, 4, 0, STR_PAD_LEFT);*/ ?></span></div>
                                     <input class="serialInput" name="serial" value="" hidden>
                                 </div>
+				
                                 <div class="form-group">
                                     &nbsp;<b style=" color: red">*</b>
                                     <div class="dropdown">

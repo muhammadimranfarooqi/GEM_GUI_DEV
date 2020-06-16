@@ -24,7 +24,7 @@ margin-left: 10px;
 
 	
 	 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-	  <h2 class="sub-header"> <img src="images/sc2.png" width="4%"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Super Chamber Location  </h2>
+	  <h2 class="sub-header"> <img src="images/sc2.png" width="4%"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Super Chamber Location (Work in Progress) </h2>
 </div>   
 <form method="POST" action="convert_sup_chambers_location_wheel.php" enctype='multipart/form-data'> 
 <div class="row" align="center">
@@ -74,7 +74,13 @@ margin-left: 10px;
 						<input type="checkbox" name="HV_CONNECTED" value="Y"><label> HV Connected</label>
 					<input type="checkbox" name="FIBRES_CONNECTED" value="Y"><label> Fibres Connected</label>
 						<input type="checkbox" name="GAS_CONNECTED" value="Y"><label>Gas connection closed</label>
-						<input type="checkbox" name="DAQ_CONNECTION_DONE" value="Y"><label>DAQ connection closed</label>
+						<input type="checkbox" name="DAQ_CONNECTION_DONE" value="Y"><label>DAQ connection closed</label><br>
+						<input type="checkbox" name="SC_INSERTED" value="Y"><label>SC Inserted</label>
+						<input type="checkbox" name="GAS_LEAK_TEST_PASSED" value="Y"><label>Gas Leak Test Passed</label>
+						<input type="checkbox" name="COOLING_PRESSURE_TEST_PASSED" value="Y"><label>Cooling Pressure Test Passed</label>
+						<input type="checkbox" name="TEMP_CHAIN_CONNECTED" value="Y"><label>Temp Chain Connected</label>
+						<input type="checkbox" name="RADMON_CONNECTED" value="Y"><label>Radmon Connected</label>
+
 						</div>
 				</div>
 				<div class="row">
@@ -117,381 +123,381 @@ var data = [{
     name: '+1'
 },
 {
-    id: 'GE1P09',
+    id: 'GE11P09',
     parent: '0.0',
   
     value: 1
 }, {
-    id: 'GE1P08',
+    id: 'GE11P08',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1P07',
+    id: 'GE11P07',
     parent: '0.0',
   
     value: 1
 }, {
-    id: 'GE1P06',
+    id: 'GE11P06',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P05',
+    id: 'GE11P05',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P04',
+    id: 'GE11P04',
     parent: '0.0',
    
     value: 1
 }, {
-    id: 'GE1P03',
+    id: 'GE11P03',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1P02',
+    id: 'GE11P02',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P01',
+    id: 'GE11P01',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P36',
+    id: 'GE11P36',
     parent: '0.0',
 
     value: 1
 }
 , {
-    id: 'GE1P35',
+    id: 'GE11P35',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P34',
+    id: 'GE11P34',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P33',
+    id: 'GE11P33',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P32',
+    id: 'GE11P32',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P31',
+    id: 'GE11P31',
     parent: '0.0',
  
     value: 1
 }
 , {
-    id: 'GE1P30',
+    id: 'GE11P30',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P29',
+    id: 'GE11P29',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1P28',
+    id: 'GE11P28',
     parent: '0.0',
   
     value: 1
 }, {
-    id: 'GE1P27',
+    id: 'GE11P27',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P26',
+    id: 'GE11P26',
     parent: '0.0',
  
     value: 1
 }
 , {
-    id: 'GE1P25',
+    id: 'GE11P25',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P24',
+    id: 'GE11P24',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P23',
+    id: 'GE11P23',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P22',
+    id: 'GE11P22',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P21',
+    id: 'GE11P21',
     parent: '0.0',
   
     value: 1
 }
 , {
-    id: 'GE1P20',
+    id: 'GE11P20',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1P19',
+    id: 'GE11P19',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P18',
+    id: 'GE11P18',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1P17',
+    id: 'GE11P17',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P16',
+    id: 'GE11P16',
     parent: '0.0',
 
     value: 1
 }
 , {
-    id: 'GE1P15',
+    id: 'GE11P15',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1P14',
+    id: 'GE11P14',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1P13',
+    id: 'GE11P13',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1P12',
+    id: 'GE11P12',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1P11',
+    id: 'GE11P11',
     parent: '0.0',
 
     value: 1
 }
 , {
-    id: 'GE1P10',
+    id: 'GE11P10',
     parent: '0.0',
 
     value: 1
 }
 ];
 var data1 = [{
-    id: '0.0',//GE1M01 - GE1M36
+    id: '0.0',//GE11M01 - GE11M36
     parent: '',
     name: '-1'
 },
 {
-    id: 'GE1M09',
+    id: 'GE11M09',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1M08',
+    id: 'GE11M08',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M07',
+    id: 'GE11M07',
     parent: '0.0',
   
     value: 1
 }, {
-    id: 'GE1M06',
+    id: 'GE11M06',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1M05',
+    id: 'GE11M05',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1M04',
+    id: 'GE11M04',
     parent: '0.0',
   
     value: 1
 }, {
-    id: 'GE1M03',
+    id: 'GE11M03',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M02',
+    id: 'GE11M02',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M01',
+    id: 'GE11M01',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M36',
-    parent: '0.0',
-
-    value: 1
-}
-, {
-    id: 'GE1M35',
-    parent: '0.0',
-
-    value: 1
-}, {
-    id: 'GE1M34',
-    parent: '0.0',
- 
-    value: 1
-}, {
-    id: 'GE1M33',
-    parent: '0.0',
- 
-    value: 1
-}, {
-    id: 'GE1M32',
-    parent: '0.0',
-
-    value: 1
-}, {
-    id: 'GE1M31',
+    id: 'GE11M36',
     parent: '0.0',
 
     value: 1
 }
 , {
-    id: 'GE1M30',
-    parent: '0.0',
- 
-    value: 1
-}, {
-    id: 'GE1M29',
+    id: 'GE11M35',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M28',
+    id: 'GE11M34',
+    parent: '0.0',
+ 
+    value: 1
+}, {
+    id: 'GE11M33',
+    parent: '0.0',
+ 
+    value: 1
+}, {
+    id: 'GE11M32',
+    parent: '0.0',
+
+    value: 1
+}, {
+    id: 'GE11M31',
+    parent: '0.0',
+
+    value: 1
+}
+, {
+    id: 'GE11M30',
+    parent: '0.0',
+ 
+    value: 1
+}, {
+    id: 'GE11M29',
+    parent: '0.0',
+
+    value: 1
+}, {
+    id: 'GE11M28',
     parent: '0.0',
   
     value: 1
 }, {
-    id: 'GE1M27',
+    id: 'GE11M27',
     parent: '0.0',
  
     value: 1
 }, {
-    id: 'GE1M26',
+    id: 'GE11M26',
     parent: '0.0',
 
     value: 1
 }
 , {
-    id: 'GE1M25',
+    id: 'GE11M25',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M24',
+    id: 'GE11M24',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M23',
+    id: 'GE11M23',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M22',
+    id: 'GE11M22',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M21',
+    id: 'GE11M21',
     parent: '0.0',
 
     value: 1
 }
 , {
-    id: 'GE1M20',
+    id: 'GE11M20',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M19',
+    id: 'GE11M19',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M18',
+    id: 'GE11M18',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M17',
+    id: 'GE11M17',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M16',
+    id: 'GE11M16',
     parent: '0.0',
 
     value: 1
 }
 , {
-    id: 'GE1M15',
+    id: 'GE11M15',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M14',
+    id: 'GE11M14',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M13',
+    id: 'GE11M13',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M12',
+    id: 'GE11M12',
     parent: '0.0',
 
     value: 1
 }, {
-    id: 'GE1M11',
+    id: 'GE11M11',
     parent: '0.0',
 
     value: 1
 }
 , {
-    id: 'GE1M10',
+    id: 'GE11M10',
     parent: '0.0',
 
     value: 1
@@ -520,9 +526,12 @@ Highcharts.chart('wheel1', {
     chart: {
         height: '60%'
     },
+	credits: {
+	        enabled: false
+	    },
 
     title: {
-        text: 'GE1P01- GE1P36'
+        text: 'GE11P01- GE11P36'
     },
     subtitle: {
         text: 'CMS - GEM'
@@ -589,9 +598,11 @@ Highcharts.chart('wheel2', {
     chart: {
         height: '60%'
     },
-  
+  credits: {
+	        enabled: false
+	    },
     title: {
-        text: 'GE1M01 - GE1M36'
+        text: 'GE11M01 - GE11M36'
     },
     subtitle: {
         text: 'CMS - GEM'

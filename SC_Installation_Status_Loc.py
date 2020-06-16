@@ -22,11 +22,18 @@ def xml_data_generation(excel_file):
         hv_connected= sys.argv[6]
 	fibers_connected= sys.argv[7]
 	gas_connected= sys.argv[8]
-        daq_connected= sys.argv[9]
-	install_date= sys.argv[10]
+	daq_connected= sys.argv[9]
+	sc_inserted=sys.argv[10]
+	gas_leak_test_passed=sys.argv[11]
+	cooling_pressure_test_passed=sys.argv[12]
+	
+	temp_chain_connected=sys.argv[13]
+	radmon_connected=sys.argv[14]
+        install_date= sys.argv[15]
+
 	root = generateXMLHeader("SC_INSTALLATION_STATUS","SUPER CHAMBER INSTALLATION STATUS","SUPER CHAMBER INSTALLATION STATUS","","","","","","")
 	dataSet = generateDataSet(root,"","1","GEM Super Chamber",super_chamber)	
-	generateXMLDataSCInstStatus(dataSet,str(location),str(super_chamber),str(cooling_connected), str(lv_connected),str(hv_connected),str(fibers_connected),str(gas_connected),str(daq_connected),str(install_date))
+	generateXMLDataSCInstStatus(dataSet,str(location),str(super_chamber),str(cooling_connected), str(lv_connected),str(hv_connected),str(fibers_connected),str(gas_connected),str(daq_connected),str(sc_inserted ),str(gas_leak_test_passed),str(cooling_pressure_test_passed),str(temp_chain_connected),str(radmon_connected),str(install_date))
 	writeToFile(fileName, tostring(root))
 
 

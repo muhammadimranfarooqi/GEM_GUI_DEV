@@ -33,7 +33,7 @@ include "head.php";
               </thead>
               <tbody>
                   <?php $drifts=  get_list_part_ID($GBT_KIND_OF_PART_ID);
-          //print_r($drifts);
+          print_r($GBT_KIND_OF_PART_ID);
           foreach( $drifts as $drift){
                
               echo '<tr>

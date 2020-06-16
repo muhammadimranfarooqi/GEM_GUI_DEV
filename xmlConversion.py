@@ -118,7 +118,7 @@ def generateXMLDataQCResult(dataSetTag,qc_testText,qc_resultText,elog_linkText, 
     comments = SubElement(data, 'COMMENTS')
     comments.text = commentsText
 
-def generateXMLDataSCInstStatus(dataSetTag,installation_locationText,super_chamberText,cooling_closedText,lv_connectedText,hv_connectedText,fibres_connectedText,gas_connectedText, daq_connectedText ,installation_dateText):
+def generateXMLDataSCInstStatus(dataSetTag,installation_locationText,super_chamberText,cooling_closedText,lv_connectedText,hv_connectedText,fibres_connectedText,gas_connectedText, daq_connectedText,sc_insertedText,gas_leak_test_passedText,cooling_pressure_test_passedText,temp_chain_connectedText,radmon_connectedText,installation_dateText):
     data = SubElement(dataSetTag, 'DATA')
     super_chamber = SubElement(data, 'SC_SERIAL_NO')
     super_chamber.text = super_chamberText
@@ -138,6 +138,17 @@ def generateXMLDataSCInstStatus(dataSetTag,installation_locationText,super_chamb
     gas_connected.text = gas_connectedText
     daq_connected = SubElement(data, 'DAQ_CONNECTION_CLOSED')
     daq_connected.text = daq_connectedText
+    sc_inserted = SubElement(data, 'SC_INSERTED')
+    sc_inserted.text=sc_insertedText
+    gas_leak_test_passed = SubElement(data, 'GAS_LEAK_TEST_PASSED')
+    gas_leak_test_passed.text=gas_leak_test_passedText
+    cooling_pressure_test_passed = SubElement(data, 'COOLING_PRESSURE_TEST_PASSED')
+    cooling_pressure_test_passed.text=cooling_pressure_test_passedText
+    temp_chain_connected = SubElement(data, 'TEMP_CHAIN_CONNECTED')
+    temp_chain_connected.text=temp_chain_connectedText
+    radmon_connected = SubElement(data, 'RADMON_CONNECTED')
+    radmon_connected.text=radmon_connectedText
+
 
 def generateXMLDatalong(dataSetTag,timesecext,appliedVoltageText,errvoltText,currentText,ErrText):
     data = SubElement(dataSetTag, 'DATA')
